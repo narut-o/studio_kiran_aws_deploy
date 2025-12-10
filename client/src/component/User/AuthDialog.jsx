@@ -1,6 +1,6 @@
 import React from "react";
 import { Dialog, Box } from "@mui/material";
-import LoginSignup from "../User/LoginSignup";
+import LoginSignup from "./LoginSignup";
 
 const AuthDialog = ({ open, onClose }) => {
   return (
