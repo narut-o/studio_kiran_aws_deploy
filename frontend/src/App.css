@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type='number']{
+    -moz-appearance: textfield;
+}
+.space{
+    height: 4vmax;
+    width: 100%;
+    position: static;
+    top: 0;
+    left: 0;
+   
+}
+.red-color{
+    color: tomato;
+}
+.green-color{
+    color: rgb(5, 228, 5);
+}
